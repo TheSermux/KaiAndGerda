@@ -6,7 +6,7 @@ from deep_translator import GoogleTranslator
 
 
 # Создаем экземпляр бота
-bot = telebot.TeleBot('7002831072:AAE8SchZO1vPkpfjQBcyt2dy7xThjmGKaxI')
+bot = telebot.TeleBot('7002831072:AAE8SchZO1vPkpfjQBcyt')
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
